@@ -406,7 +406,6 @@
     "countdown": "Visszaszámláló",
     "stopwatch": "Stopperóra",
     "gymModeDefaultCountdownTime": "Alapértelmezett visszaszámlálási idő másodpercben",
-    "gymModeNotifyOnCountdownFinish": "Értesítés a visszaszámlálás végén",
     "duration": "Időtartam",
     "durationHoursMinutes": "{hours} ó {minutes} p",
     "@durationHoursMinutes": {
@@ -772,7 +771,7 @@
         "type": "text",
         "placeholders": {
             "min": {
-                "type": "String"
+                "type": "int"
             }
         }
     },
@@ -782,7 +781,7 @@
         "type": "text",
         "placeholders": {
             "max": {
-                "type": "String"
+                "type": "int"
             }
         }
     },
@@ -998,7 +997,7 @@
         "description": "Number of days before which a person can add exercise",
         "placeholders": {
             "days": {
-                "type": "String",
+                "type": "int",
                 "example": "14"
             }
         }

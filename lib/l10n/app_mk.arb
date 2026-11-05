@@ -277,7 +277,7 @@
         "type": "text",
         "placeholders": {
             "min": {
-                "type": "String"
+                "type": "int"
             }
         }
     },
@@ -550,7 +550,6 @@
     "countdown": "Одбројување",
     "stopwatch": "Штоперица",
     "gymModeDefaultCountdownTime": "Стандардно време на одбројување, во секунди",
-    "gymModeNotifyOnCountdownFinish": "Извести на крајот од одбројувањето",
     "duration": "Времетраење",
     "durationHoursMinutes": "{hours}ч {minutes}м",
     "@durationHoursMinutes": {

@@ -792,7 +792,7 @@
         "description": "Number of days before which a person can add exercise",
         "placeholders": {
             "days": {
-                "type": "String",
+                "type": "int",
                 "example": "14"
             }
         }
@@ -853,7 +853,7 @@
         "type": "text",
         "placeholders": {
             "min": {
-                "type": "String"
+                "type": "int"
             }
         }
     },
@@ -918,7 +918,6 @@
     "gymModeTimerTypeHelText": "Jika set memiliki waktu jeda, hitung mundur akan selalu digunakan.",
     "countdown": "Hitung Mundur",
     "gymModeDefaultCountdownTime": "Waktu hitung mundur default, dalam detik",
-    "gymModeNotifyOnCountdownFinish": "Beri notifikasi saat hitung mundur selesai",
     "duration": "Durasi",
     "durationHoursMinutes": "{hours}j {minutes}m",
     "@durationHoursMinutes": {
@@ -1393,7 +1392,7 @@
         "type": "text",
         "placeholders": {
             "max": {
-                "type": "String"
+                "type": "int"
             }
         }
     },
